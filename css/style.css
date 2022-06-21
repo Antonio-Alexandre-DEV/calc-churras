@@ -1,0 +1,16 @@
+/*{ margin: 0; padding: 0; box-sizing: border-box; Zerar css*/
+body { background-image:url(../img/Rosa\ e\ Branco\ Macio\ Aquarela\ Sem\ Cópia\ Telefone\ Papel\ de\ Parede\ Imagem\ de\ fundo\ de\ tela\ para\ celular.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.container{font-family: Arial, Helvetica, sans-serif;  max-width: 300px; margin: auto;background-color:aquamarine;padding: 25px; border-radius: 10px;}
+    
+#btn { cursor:pointer; border-radius: 5px ;}
+
+input{ display:block; width: 100%; padding: 5px; margin-bottom: 10px;box-sizing: border-box;}
+

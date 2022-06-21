@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema para Churrasco</title>
+<link rel="stylesheet" href="./css/style.css">
+
+    <!--Questionamentos: 
+        Qual quantidade de comida e bebida que preciso para fazer um churrasco? 
+        Quantas pessoas participarão? (adultos e crianças)
+        Qual sera a duração do churrasco?
+    
+    Obs - os dados para fazer o sistema foram coletados de um site especifico 
+        carne - 400g por pessoa + 6h - 650g
+        cerveja - 1200ml por pessoa + 6h - 2000 ml
+        Refrigerante - 1000 ml por pessoa + 6h - 1500ml
+        crianças valem por 0,5
+-->
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calc Churras</h1>
+        <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+        <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+        <input id="duracao" name="duracao" type="number" placeholder="Duração(h)">
+        <button id="btn" onclick="Calcular()">Calcular</button>
+
+        <!--Minha estrategia - Quando clicar em calcular vai executar uma função no js e vai pegar todos os dados do input, assim gerando as frases e colocar dentro de uma DIV-->
+
+        <div id="resultado"></div>
+   
+</div>
+<script src="./script/scripts.js"></script>
+</body>
+</html>
